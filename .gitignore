@@ -1,0 +1,7 @@
+/composer.lock
+/.env.local
+/.env.local.php
+/.env.*.local
+/symfony.lock
+/vendor/
+/tests/fixtures/app/var/
