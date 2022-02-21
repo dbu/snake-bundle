@@ -40,26 +40,6 @@ Clone the git repository, then run:
     composer install
     ./tests/fixtures/app/bin/console game:snake
 
-# FAQ
-
-## My console is looking weird after running the command
-
-This can happen after aborting the program, e.g. with <ctrl>-c. Reset the console to sane defaults
-by typing:
-
-    stty sane
-
-Be aware that input is probably hidden, so you won't see anything until you hit enter.
-
-## Why Snake?
-
-Because it was the first thing I could think of. 
-And its simple enough that it should be possible to follow what is going on.
-
-## What is this font?
-
-Delta Corps Priest 1 from http://patorjk.com/software/taag/
-
 # Screenshots
 
 ![start screen](snake.png)
