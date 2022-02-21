@@ -16,13 +16,16 @@
                                   ~-_           _-~          ~-_       _-~   - jurcy -
                                      ~--______-~                ~-___-~
 
-This bundle adds a command to run the snake game in your console.
-It is a demo for the `cursor` added in Symfony Console 5.1.
-Let it not distract you from your work ;-)
+Symfony bundle for `dbu/php-snake`, the command line snake game.
+
+This repository provides the bundle to install in a Symfony application. If you just want the game stand-alone, look at
+the [php-snake](https://github.com/dbu/php-snake) repository.
 
 # Installation and Usage
-                          
+
 ## Installation
+
+In your Symfony application, run:
 
     composer require dbu/snake-bundle
 
@@ -60,5 +63,3 @@ Delta Corps Priest 1 from http://patorjk.com/software/taag/
 # Screenshots
 
 ![start screen](snake.png)
-
-![lost game](snake2.png)
